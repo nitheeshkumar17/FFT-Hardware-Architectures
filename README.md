@@ -1,1 +1,1 @@
-This Project consists of hardware description of different types of FFT's and their testbenches used for the simulation.
+This Project consists of hardware descriptions of different blocks used in FFT and their testbenches used for the simulation.
