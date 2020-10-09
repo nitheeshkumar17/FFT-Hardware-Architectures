@@ -1,3 +1,5 @@
+// Aligns the exponents of the given complex floating point numbers
+
 `timescale 1ns / 1ps
 module align_1(
     input [7:0] BE,
@@ -5,15 +7,15 @@ module align_1(
 	 output reg [7:0] d
     );
 	 
-always @(AE,BE) begin
-if (AE>BE) begin
-d=AE-BE;
-end
-else if (AE<BE) begin
-d=BE-AE;
-end
-else begin
-d=8'b0;
-end
-end
+ always @(AE,BE) begin
+  if (AE>BE) begin
+   d=AE-BE;
+  end
+  else if (AE<BE) begin
+   d=BE-AE;
+  end
+  else begin
+   d=8'b0;
+  end
+ end
 endmodule
