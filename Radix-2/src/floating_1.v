@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-// It contains Three modules : ALIGN, ADD, NORMALISE 
+// Floating-Point Adder/Subtractor
 
 module floating_1(
     input [31:0] a,
